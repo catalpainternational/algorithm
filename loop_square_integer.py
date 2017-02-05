@@ -2,20 +2,22 @@
 
 def f(n):
     # your code here
+   print [item**2 for item in range(n)]
+
 
 # In the end, your function should have the following results:
 
-# In [4]: f(1)
+f(1)# In [4]: f(1)
 # Out[4]: [0]
 #
-# In [5]: f(2)
+f(2)# In [5]: f(2)
 # Out[5]: [0, 1]
 #
-# In [6]: f(3)
+f(3)# In [6]: f(3)
 # Out[6]: [0, 1, 4]
 #
-# In [7]: f(4)
+f(4)# In [7]: f(4)
 # Out[7]: [0, 1, 4, 9]
 #
-# In [8]: f(5)
+f(5)# In [8]: f(5)
 # Out[8]: [0, 1, 4, 9, 16]
