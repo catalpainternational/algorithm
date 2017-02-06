@@ -2,9 +2,9 @@
 
 def f(n):
     # your code here
-   print [item**2 for item in range(n)]
-
-
+    for f in range (0, n):
+        print (f ** 2)
+        
 # In the end, your function should have the following results:
 
 f(1)# In [4]: f(1)
