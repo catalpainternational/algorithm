@@ -10,3 +10,20 @@ replace_char('mario', 2, 't')  # returns 'matio'
 
 replace_char('ta', 0, 'h')  # returns 'ha'
 replace_char('ha', 1, 'o')  # returns 'ho'
+
+def ano(string, index, char):
+    value = []
+    value_string = ""
+    for item in string:
+        value.append(item)
+    # value = ['f', 'o', 'o']
+    value[index] = char
+    # value = ['b', 'o', 'o']
+    for item in value:
+        value_string += item
+    # value_string = 'boo'
+    print(value_string)
+
+
+def ony(string, index, char):
+    print(string[:index] + char + string[index + 1:])
